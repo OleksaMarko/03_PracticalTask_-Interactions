@@ -1,0 +1,47 @@
+body {
+  color: blueviolet;
+  width: 100vw;
+  background-color: #ddd;
+  font-family: sans-serif;
+}
+
+#container {
+  padding: 0 0 0 50px;
+}
+
+.list-item {
+  max-width: 850px;
+  border: 2px solid;
+  border-radius: 20px;
+  padding: 0 50px;
+  box-sizing: border-box;
+  margin: 0 0 20px  0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+.list-title {
+  display: inline-block;
+    min-width: 255px;
+}
+
+.edit-button {
+  color: blueviolet;
+  border: 2px solid blueviolet;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.edit-button:hover {
+  color: white;
+  background-color: blueviolet;
+  border: 2px solid white;
+
+}
