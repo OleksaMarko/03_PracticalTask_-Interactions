@@ -10,7 +10,7 @@ Project that demonstrates interaction with entities, test task for "TM"
 
 If you have Git installed on your machine, you can clone the repository:
 
-- Clone the repository: git clone git@github.com:OleksaMarko/03*PracticalTask*-Interactions.git
+- Clone the repository: `git clone https://github.com/OleksaMarko/03_PracticalTask_-Interactions.git`
 
 - For using this app you should run it with "Live Server" extention in your IDE, for correct work of JS Modules
 
