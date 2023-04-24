@@ -29,7 +29,8 @@ export class Api {
 
       return res.json();
     } catch (err) {
-      ErrorHandler.errorHandling();
+      ErrorExtendedHandler.errorHandling();
+      ErrorExtendedHandler.alertError();
     }
   }
 
@@ -45,7 +46,8 @@ export class Api {
       );
       return res.json();
     } catch (err) {
-      ErrorHandler.errorHandling();
+      ErrorExtendedHandler.errorHandling();
+      ErrorExtendedHandler.alertError();
     }
   }
 }
